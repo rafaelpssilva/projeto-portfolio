@@ -1,0 +1,12 @@
+.btn-link {
+    text-decoration: none;
+    padding: 20px 30px;
+    border: 1px solid #64FFDA;
+    border-radius: 5px;
+    transition: 1s all;
+}
+
+.btn-link:hover {
+    background-color: #64ffdb5d;
+    opacity: 0.9;
+}

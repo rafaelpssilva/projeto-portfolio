@@ -1,0 +1,21 @@
+.projetos {
+    padding: 0px 40px;
+}
+
+.projetos h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.projetos ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.projetos .box-video {
+    background-color: white;
+    width: 80%;
+    height: 300px;
+    margin: 20px auto;
+}

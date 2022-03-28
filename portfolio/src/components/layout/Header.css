@@ -1,0 +1,40 @@
+.header {
+    background-color: #0a192f;
+    width: 100%;
+    height: 10vh;
+    padding: 35px 50px;  
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #CCD6F6;   
+    font-size: 1.1em;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.ul-list {
+    display: flex;
+    list-style: none;
+}
+
+.ul-list li   {
+    color: #CCD6F6;
+    font-size: 0.9em;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.6s all;
+}
+
+.ul-list li:hover {
+    color: #64FFDA;
+}
+
+.ul-list li + li {
+    margin-left: 10px;
+}
