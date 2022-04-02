@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
+
+* {
+    font-family: 'Roboto';
+}
+
+section {
+    padding: 0px 50px;
+}
+
+/* Home */
+
+.home {
+    height: 90vh;
+    position: relative;
+}
+
+.conteudo-home {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-30%);
+}
+
+.home .apresentacao {
+    color: #64FFDA;
+
+    font-size: 1.1em;
+    word-spacing: 4px;
+
+    margin-bottom: 20px;
+
+    display: block;
+}
+
+.home h1 {
+    color: #CCD6F6;
+    font-size: 3em;
+    margin-bottom: 5px;
+}
+
+.home .subtitulo {
+    color: #8892B0;
+
+    font-size: 2.7em;
+    font-weight: 600;
+
+    margin-bottom: 25px;
+    padding-right: 50px;
+
+    display: block;
+}
+
+.resumo {
+    color: #7D87A4;
+
+    font-size: 17px;
+    text-align: justify;
+    line-height: 1.5;
+
+    width: 80vw;
+    margin-bottom: 65px;
+    padding: 0px;
+}
+
+
+
+/* SOBRE */
+
+.sobre {
+    position: relative;
+    margin-top: 80px;
+}
+
+.sobre h2 {
+    color: #CCD6F6;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.sobre .descricao {
+    color: #7D87A4;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.sobre p + p {
+    margin-top: 10px;
+}
+
+.sobre h3 {
+    color: #ccd6f6e4;
+    font-size: 1.3em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.tecnologias-list, .cursos-list {
+    columns: 2;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.tecnologias-list li, .cursos-list li {
+    color: #7D87A4;
+    text-indent: 30px;
+    margin-bottom: 3px;
+    font-size: 14px;
+    opacity: 0.7;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+
+.tecnologias-list li:hover, .cursos-list li:hover {
+    opacity: 1;
+}
+
+.seta {
+    margin-right: 5px;
+    color: #64FFDA;
+    font-size: 14px;
+}
+
+
+/* Projetos */
+
+.projetos {
+    margin-top: 160px;
+    margin-bottom: 80px;
+}
+
+
+.projetos h2 {
+    color: #CCD6F6;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.projetos ul {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+
+    list-style: none;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.projetos ul li {
+    color: #8892B0;
+    cursor: pointer;
+}
+
+.projetos #box-video {
+    width: 90%;
+    max-width: 500px;
+    height: 300px;
+    margin: 20px auto;
+    position: relative;
+    color: white;
+}
+
+.video {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
