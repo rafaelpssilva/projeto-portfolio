@@ -19,3 +19,16 @@ footer ul li a {
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.footer-cv {
+    display: none;
+    margin: auto;
+}
+
+.footer-cv a {
+    color: #64FFDA;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #64FFDA;
+    border-radius: 3px;
+}

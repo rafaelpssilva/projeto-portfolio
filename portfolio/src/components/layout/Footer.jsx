@@ -10,6 +10,9 @@ function Footer() {
                 <li><a href="/"><AiFillLinkedin/></a></li>
                 <li><a href="/"><AiFillGithub /></a></li>
             </ul>
+            <div className='footer-cv'>
+                <a href="/">Currículo</a>
+            </div>
         </footer>
     )
 }

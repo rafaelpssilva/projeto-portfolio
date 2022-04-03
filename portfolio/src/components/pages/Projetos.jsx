@@ -35,7 +35,7 @@ function Projetos() {
    
 
     return (
-        <section className="projetos">
+        <section className="projetos" id='projetos'>
             <h2>Projetos</h2>
             <ul>
                 <li onClick={projeto1}>E-commerce</li>

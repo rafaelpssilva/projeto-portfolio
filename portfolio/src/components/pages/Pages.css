@@ -8,11 +8,17 @@ section {
     padding: 0px 50px;
 }
 
+strong {
+    color: #64FFDA;
+    font-weight: 400;
+}
+
 /* Home */
 
 .home {
     height: 90vh;
     position: relative;
+    
 }
 
 .conteudo-home {
@@ -60,8 +66,9 @@ section {
     padding: 0px 50px 0px 0px;
     margin-bottom: 65px;
 
-}
 
+
+}
 
 
 /* SOBRE */
@@ -79,10 +86,12 @@ section {
 
 .sobre .descricao {
     color: #7D87A4;
-    font-size: 18px;
+
+    font-size: 17px;
     text-align: justify;
     line-height: 1.5;
 }
+
 
 .sobre p + p {
     margin-top: 10px;
@@ -108,13 +117,14 @@ section {
     margin-bottom: 3px;
     font-size: 14px;
     opacity: 0.7;
-    transition: 0.7s;
+    transition: 0.4s;
     cursor: pointer;
 }
 
 
 .tecnologias-list li:hover, .cursos-list li:hover {
     opacity: 1;
+    font-weight: 600;
 }
 
 .seta {
@@ -186,3 +196,47 @@ section {
 }
 
 
+@media (min-width: 759px) {
+    
+    section {
+        padding: 0px 180px;
+    }
+
+    .header nav {
+        padding: 20px 50px;
+    }
+
+    /* Home */
+
+    .home {
+        min-height: 600px;
+    }
+
+    .resumo {
+        padding-right: 180px;
+        min-width: 500px;
+        max-width: 60%;
+        text-align: left;
+    }
+
+    .line-medias {
+        display: block;
+    }
+
+    /* Footer */
+
+    footer ul {
+        display: none;
+    }
+
+    .footer-cv {
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+    .home {
+        margin-top: 30px;
+        margin-bottom: 160px;
+    }
+}

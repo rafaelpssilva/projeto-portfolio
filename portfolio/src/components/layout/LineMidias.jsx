@@ -1,14 +1,15 @@
 import './LineMidias.css'
-import { AiFillGithub, AiFillFacebook, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
+
+import { FiGithub, FiInstagram, FiLinkedin, FiMail } from "react-icons/fi";
 
 function LineMidias() {
     return (
         <div className="line-medias">
             <ul>
-                <li><a href="/"><AiFillFacebook /></a></li>
-                <li><a href="/"><AiFillInstagram /></a></li>
-                <li><a href="/"><AiFillLinkedin/></a></li>
-                <li><a href="/"><AiFillGithub /></a></li>
+                <li><a href="/"><FiInstagram /></a></li>
+                <li><a href="/"><FiGithub /></a></li>
+                <li><a href="/"><FiLinkedin/></a></li>
+                <li><a href="/"><FiMail /></a></li>
             </ul>
         </div>
     )
