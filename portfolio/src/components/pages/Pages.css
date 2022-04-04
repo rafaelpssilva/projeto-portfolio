@@ -17,8 +17,7 @@ strong {
 
 .home {
     height: 90vh;
-    position: relative;
-    
+    position: relative; 
 }
 
 .conteudo-home {
@@ -30,7 +29,7 @@ strong {
 .home .apresentacao {
     color: #64FFDA;
 
-    font-size: 1.1em;
+    font-size: min(1.1em, 5vw);
     word-spacing: 4px;
 
     margin-bottom: 20px;
@@ -40,14 +39,14 @@ strong {
 
 .home h1 {
     color: #CCD6F6;
-    font-size: 3em;
+    font-size: min(150px, 5.5vw);
     margin-bottom: 5px;
 }
 
 .home .subtitulo {
     color: #8892B0;
 
-    font-size: 2.7em;
+    font-size: min(120px, 4.4vw);
     font-weight: 600;
 
     margin-bottom: 25px;
@@ -76,11 +75,12 @@ strong {
 .sobre {
     position: relative;
     margin-top: 80px;
+    padding-top: 30px;
 }
 
 .sobre h2 {
     color: #CCD6F6;
-    font-size: 28px;
+    font-size: min(30px, 4.7vw);
     margin-bottom: 30px;
 }
 
@@ -139,6 +139,7 @@ strong {
 .projetos {
     margin-top: 160px;
     margin-bottom: 80px;
+    padding-top: 30px;
 }
 
 
@@ -164,37 +165,45 @@ strong {
     cursor: pointer;
 }
 
-.projetos #box-video {
+#box-projeto {
     width: 90%;
-    max-width: 500px;
-    height: 300px;
+    max-width: 800px;
+    height: 500px;
     margin: 20px auto;
     position: relative;
     color: white;
 }
 
-.video {
+#slider {
+    width: 90%;
+    max-width: 800px;
+    height: 60vh;
+    min-height: 250px;
+
+    margin: 20px auto;
+
+    position: relative;
+}
+
+#slider img {
     width: 100%;
-    height: 300px;
+    height: 100%;
+
+    opacity: 0;
+    transition: opacity 800ms;
+
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: none;
 }
 
-.blue {
-    background-color: blue;
+#slider img.selected {
+    opacity: 1;
 }
 
-.red {
-    background-color: red;
+.selected {
+    opacity: 1;
 }
 
-.yellow {
-    background-color: yellow;
-}
-
+ 
 
 @media (min-width: 759px) {
     
@@ -236,7 +245,13 @@ strong {
 
 @media (max-width: 600px) {
     .home {
-        margin-top: 30px;
+        margin-top: 0px;
         margin-bottom: 160px;
+    }
+}
+
+@media (max-height: 378px) {
+    .home {
+        margin-top: 30px;
     }
 }
