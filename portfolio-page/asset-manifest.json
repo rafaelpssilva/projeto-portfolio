@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "./static/css/main.6f83f86a.css",
+    "main.js": "./static/js/main.3db82b4e.js",
+    "static/media/r4-eletro-meio.png": "./static/media/r4-eletro-meio.e27918c077a6326b529e.png",
+    "static/media/r4-eletro-inicio.png": "./static/media/r4-eletro-inicio.9d93d15e4a69124c92e6.png",
+    "static/media/r4-eletro-fim.png": "./static/media/r4-eletro-fim.8930d7ba9c145b60b19e.png",
+    "index.html": "./index.html",
+    "main.6f83f86a.css.map": "./static/css/main.6f83f86a.css.map",
+    "main.3db82b4e.js.map": "./static/js/main.3db82b4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f83f86a.css",
+    "static/js/main.3db82b4e.js"
+  ]
+}
